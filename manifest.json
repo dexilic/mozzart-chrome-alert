@@ -1,0 +1,11 @@
+{
+  "name": "Mozzart Alert",
+  "version": "1.0",
+  "manifest_version": 1,
+  "description": "Daje obaveštenja o najnovijim sportskim rezultatima.",
+  "icons": {"16": "16.png", "48": "48.png", "128": "128.png"},
+  "permissions": ["tabs", "notifications"],
+  "options_page": "options.html",
+  "background": { "scripts": ["background.js"] },
+  "manifest_version": 2
+}
